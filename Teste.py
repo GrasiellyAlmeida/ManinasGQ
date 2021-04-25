@@ -4,6 +4,7 @@ def cria_baralho():
     lista = shuffle(cartas)
     return cartas
  
+def extrai_naipe(carta):
     if carta == '10♣' or carta == '10♥' or carta == '10♠' or carta == '10♦':
         return carta[2]
     else:
